@@ -1,0 +1,122 @@
+.App{
+  max-width: 1920px;
+  margin: 0 auto;
+  font-family: 'Righteous', cursive;
+}
+.Buscador{
+  display: flex;
+  justify-content: right;
+  align-items: center;
+  padding: 20px 15px 20px 0;
+  background: linear-gradient(to right,#9CF6F6, #1cb5e0);   
+  box-shadow: 0px 0px 2px 0px grey;
+}
+@media (max-width: 768px) {
+  .Buscador{
+      display: flex;
+      justify-content: space-evenly;
+      align-items: center;
+  }
+}
+.Buscador input{
+  padding: 5px 5px 5px 10px;
+  border: none;
+  border-radius: 4px;
+  margin-right: 5px;
+  font-weight: 100;
+  color: grey;
+  outline: none;
+}
+@media (max-width: 768px) {
+  .Buscador input{
+    padding: 1em 1em 1em 2em;
+  }
+}
+.Buscador img{
+  width: 2.2em;
+  padding:  10px;
+  background-color: #F3C98B;
+  border-radius: 20%;
+}
+@media (max-width: 768px) {
+  .Buscador img{
+    width: 3.5em;
+  }
+}
+.Buscador img:hover{
+  cursor: pointer;
+}
+.container-cards{
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  max-width: 1000px;
+  margin: 0 auto;
+}
+.contenedor-tarjeta{
+  padding: 10px;
+  margin: 25px;
+  text-align: center;
+  border-radius: 15px;
+}
+.title{
+  text-transform: uppercase;
+  font-weight: 100;
+  font-size: 1.5em;
+}
+.contenedor-datos{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.contenedor-datos h6{
+  text-align: center;
+  margin: 0 10px;
+}
+.contenedor-datos img{
+  background-color: #F3C98B;
+  border-radius: 50%;
+  margin: 0 10px;
+  box-shadow: 0px 0px 7px 0px black;
+}
+.cerrar{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.contenedor-datos img.btn-cerrar{
+  width: 2em;
+  background-color: #C46D5E;
+  border-radius: 50%;
+  margin-top: -10px;
+}
+.contenedor-datos img.btn-cerrar:hover{
+  transition: all 1s;
+  background-color: #F56960;
+  cursor: pointer;
+}
+p {
+  color: grey;
+  font-size: 1em;
+}
+.Footer{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px 0;
+}
+.Footer img{
+  width: 3em;
+  margin: 0 10px;
+}
+.Footer img:hover{
+  cursor: pointer;
+}
+p{
+  text-align: center;
+}
+p span{
+  font-weight: bold;
+  color: black;
+}
