@@ -8,15 +8,15 @@ export default function Card({max,min,name,img,onClose}) {
       <div className='contenedor-datos'>
         <div>
           <h6>Min</h6>
-          <p>{min}°</p>
+          <p>{min}°C</p>
         </div>
         <div className='cerrar'>
           <img src={`http://openweathermap.org/img/wn/${img}@2x.png`} alt={img} />
-          <img src={Btn_cerrar} className='btn-cerrar' onClick={() => onClose()} alt='Cerrar' />
+          <img src={Btn_cerrar} className='btn-cerrar' onClick={() => onClose(name)} alt='Cerrar' />
         </div>
         <div>
           <h6>Max</h6>
-          <p>{max}°</p>
+          <p>{max}°C</p>
         </div>
       </div>
     </div>

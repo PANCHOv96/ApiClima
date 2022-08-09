@@ -1,7 +1,7 @@
 import React from 'react';
 import Card from './Card.jsx';
 
-export default function Cards({cities}) {
+export default function Cards({cities,onClose}) {
   return (
     <div className='container-cards'>
       {
@@ -11,7 +11,7 @@ export default function Cards({cities}) {
             min={c.main.temp_min}
             name={c.name}
             img={c.weather[0].icon}
-            onClose={() => alert(c.name)}
+            onClose={onClose}
             key={i}
           />
         )
