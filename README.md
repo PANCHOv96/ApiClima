@@ -6,7 +6,7 @@ web desarrollada en react con la idea de aprender a manejar API, en este proyect
 
 ## Screenshots
 
-![App Screenshot](https://via.placeholder.com/468x300?text=App+Screenshot+Here)
+![App Screenshot](https://github.com/PANCHOv96/ApiClima/blob/main/src/img/ApiClima.png)
 
 
 ## Instalación 
